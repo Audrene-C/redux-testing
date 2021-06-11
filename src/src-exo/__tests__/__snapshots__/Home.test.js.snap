@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HOME snapshot It renders without crashing 1`] = `
+<div
+  className="container"
+>
+  <h2>
+    Using React and Redux
+  </h2>
+  <div>
+    Input 1:
+    <input
+      placeholder="Input 1"
+      type="text"
+    />
+  </div>
+  <div>
+    Input 2 :
+    <input
+      placeholder="Input 2"
+      type="text"
+    />
+  </div>
+  <div>
+    Output :
+    <input
+      placeholder="Output"
+      readOnly={true}
+      type="text"
+    />
+  </div>
+  <div>
+    <button
+      id="add"
+      onClick={[Function]}
+    >
+      Add
+    </button>
+    <button
+      id="subtract"
+      onClick={[Function]}
+    >
+      Subtract
+    </button>
+    <button
+      id="fetchNumber"
+      onClick={[Function]}
+    >
+      FETCH INPUT 1 NUMBER
+    </button>
+  </div>
+  <hr />
+</div>
+`;
